@@ -1,0 +1,199 @@
+body {
+    width: 100%;
+    height: 527%;
+    overflow-x:hidden;
+    background: #f3f3f3;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 21.76%;  
+    background: #ffffff;
+}
+header  .logo{
+    width: 74.7%;
+    padding-left: 3%;
+}
+.title{
+    width: 40%;
+    font-family:"Calibri";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 400%;
+    color: #434242;
+    margin: 0;
+}
+
+.phone{
+    display: flex;
+    width: 18%;
+    margin-left: 5%;
+    align-items: center;
+}
+.picphone{   
+    width: 10.5%;
+    height: 9.5%;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next{
+    right: 0;
+    border-radius:3px 0  0 3px;
+}
+.prev:hover,.next:hover{
+    background-color: rgba(0, 0,0, 0.8);
+}
+
+.slideshow-container
+{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+div#navblock{
+    position: relative;
+}
+.dot{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+.active, dot:hover{
+    background-color: #3a3a3a;
+}
+@-webkit-keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}
+@keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.navblock {
+    display: flex;
+    position: absolute;  
+    top: 84%;  
+    width: 100%;  
+    justify-content: space-around; 
+}
+.navblock a{
+    text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(109, 222, 250);
+    padding-bottom: 15px;
+    font-family:"Calibri";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 250%;
+}
+.title2{
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    justify-content: center;
+    font-family:"Calibri";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 400%;
+    color: #434242;
+}
+footer{
+    position:absolute;
+    background-color:#EFEFEF;
+    width: 100%;
+    margin-top:8% ;
+
+}
+.logo-name{
+    position: relative;
+    width: 9.27%;
+    height: 15%;
+    padding: 0%;
+    margin: 0%;
+    align-self: flex-start;
+    padding: 1%;
+    margin: 0;
+}
+
+.container a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(109, 222, 250);
+    padding-bottom: 15px;
+    font-family:"Calibri";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 250%;
+    margin: 0;
+    color:#434242;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-left: 7.2%;
+    padding-right: 8.4%;
+}
+.lists
+{ 
+    display: flex;
+    justify-content: space-between;
+    height: 48%;
+    padding-left: 5.2%;
+    margin: 0;
+}
+.list2{
+
+    position:static;  
+    list-style-type:none;
+    padding-bottom: 1%;
+    font-family:"Calibri";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160%;  
+    line-height: 200%;
+    color: #414040;
+}
+.list2:nth-child(2){
+
+    position:static;  
+    list-style-type:none;
+    padding-bottom: 1%;
+    padding-right: 16.3%;
+    font-family:"Calibri";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160%;  
+    line-height: 200%;
+    color: #414040;
+}
+.list2:nth-child(3){
+
+    position:static;  
+    list-style-type:none;
+    padding-right: 1%;  
+}
